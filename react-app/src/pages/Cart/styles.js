@@ -39,7 +39,7 @@ export const ProductTable = styled.table`
     }
     tbody td{
         padding: 12px;
-        border-bottom: 1px solid #eee ;
+        border-bottom: 3px solid #eee ;
         text-align: center;
     }
     img{
@@ -77,6 +77,8 @@ export const ProductTable = styled.table`
         padding: 6px;
 
     }
+
+
 `;
 export const Total = styled.div`
         span{

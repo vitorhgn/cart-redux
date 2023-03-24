@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ProductList = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(4,1fr);
   grid-gap: 30px;
   list-style: none;
   
@@ -63,6 +63,14 @@ export const ProductList = styled.ul`
         }
     }
 
-
-  }
+}
+@media (max-width: 950px) {
+    grid-template-columns: repeat(3,1fr);
+}
+@media (max-width: 680px) {
+    grid-template-columns: repeat(2,1fr);
+}
+@media (max-width: 420px) {
+    grid-template-columns: repeat(1,1fr);
+}
 `;
